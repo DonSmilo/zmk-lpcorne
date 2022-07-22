@@ -166,7 +166,7 @@
 &trans &kp Q              &kp D              &kp R              &kp W              &kp B              &kp J              &kp F              &kp U              &kp P              &kp SQT         &to BASE    
 &trans &kp A              &kp S              &kp H              &kp T              &kp G              &kp Y              &hm LSHFT N        &hm LALT E         &hm LCTRL O        &hm LGUI I      &trans     
 &trans &kp NUM_1          &kp NUM_2          &kp NUM_3          &kp NUM_4          &kp V              &kp K              &kp L              &kp COMMA          &lt FUN DOT        &lt SYM SLASH   &trans 
-                                             &trans             &kp BSPC     &kp SPC      &lt  NUM SPC       &lt  NUM SPC        &trans
+                                             &trans             &kp BSPC     &kp LSHFT      &lt  NUM SPC       &lt  NUM SPC        &trans
                         >;
                 };
         
