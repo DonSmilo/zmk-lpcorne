@@ -44,12 +44,12 @@
         };
         combo_enter {
             timeout-ms = <10>;
-            key-positions = <21 22>;
+            key-positions = <20 21>;
             bindings = <&kp RET>;
         };
         combo_scln {
             timeout-ms = <10>;
-            key-positions = <20 21>;
+            key-positions = <21 22>;
             bindings = <&kp SCLN>;
         };
         combo_lpar {
