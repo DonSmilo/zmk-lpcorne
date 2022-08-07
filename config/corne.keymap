@@ -97,6 +97,16 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+        hs: homerow_shift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_SHIFT";
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+        
     };
 };
 
@@ -111,7 +121,7 @@
                         
                         bindings = <
 &trans &kp Q              &kp D              &kp R              &kp W              &kp B              &kp J              &kp F              &kp U              &kp P              &kp SQT         &trans    
-&kp LA(TAB) &hm LGUI A        &hm LCTRL S        &hm LALT H         &hm LSHFT T         &kp G              &kp Y              &hm LSHFT N        &hm LALT E         &hm LCTRL O        &hm LGUI I      &trans     
+&kp LA(TAB) &hm LGUI A    &hm LCTRL S        &hm LALT H         &hs LSHFT T        &kp G              &kp Y              &hs LSHFT N        &hm LALT E         &hm LCTRL O        &hm LGUI I      &trans     
 &trans &kp Z              &lt MED X          &kp M              &kp C              &kp V              &kp K              &kp L              &kp COMMA          &lt FUN DOT        &lt SYM SLASH   &to GAM 
                                              &trans             &lt  NAV BSPC     &lt  NAV BSPC      &lt  NUM SPC       &lt  NUM SPC        &trans
                         >;
