@@ -50,7 +50,7 @@
         combo_scln {
             timeout-ms = <10>;
             key-positions = <21 22>;
-            bindings = <&kp SCLN>;
+            bindings = <&kp COLON>;
         };
         combo_lpar {
             timeout-ms = <20>;
